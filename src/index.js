@@ -6,7 +6,6 @@ import './scss/main.scss';
 
 (function () {
     window.addEventListener('DOMContentLoaded', (e) => {
-        const s = new Skewed();
-        s.render();
+        new Skewed();
     });
 })();

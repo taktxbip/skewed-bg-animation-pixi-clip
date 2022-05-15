@@ -10,4 +10,36 @@ canvas {
     display: block;
     margin: 0;
     padding: 0;
+    position: absolute;
 }
+
+h1,
+h2 {
+    font: 400 normal 5rem / 1.1 Georgia;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin: auto;
+    color: #fff;
+    padding: 0 300px;
+    text-align: center;
+}
+section {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.one {
+    // background: black;
+    z-index: 2;
+}
+
+.two {
+    // background: green;
+    clip: rect(0, 100vw, 0, 0);
+}
+
