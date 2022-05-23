@@ -42,7 +42,7 @@ jobs:
 
     - name: Unzip artifacts
       run: |
-        unzip dist.zip -d ./dist/
+        unzip dist.zip -d ./
 
     - name: Install SSH Key
       uses: shimataro/ssh-key-action@v2
